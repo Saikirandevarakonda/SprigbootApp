@@ -18,6 +18,7 @@ public StudentService studentService;
 	public ResponseEntity<String>saveRecord(@RequestBody StudentForm sf){
 	try {
 		studentService.saveStudentFormdata(sf);
+		System.out.println("=============");
 	}
 	catch(Exception e) {
 		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
