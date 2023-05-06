@@ -18,7 +18,7 @@ public StudentService studentService;
 	public ResponseEntity<String>saveRecord(@RequestBody StudentForm sf){
 	try {
 		studentService.saveStudentFormdata(sf);
-		System.out.println("saikiran123456789 :");
+		
 	}
 	catch(Exception e) {
 		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
