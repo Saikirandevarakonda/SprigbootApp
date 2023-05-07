@@ -19,7 +19,7 @@ public StudentService studentService;
 	try {
 		
 		studentService.saveStudentFormdata(sf);
-		System.out.println("after save record");
+		
 			}
 	catch(Exception e) {
 		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
