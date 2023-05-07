@@ -19,7 +19,7 @@ public StudentService studentService;
 	try {
 		System.out.println("12");
 		studentService.saveStudentFormdata(sf);
-		System.out.println("4567");
+		
 		
 			}
 	catch(Exception e) {
