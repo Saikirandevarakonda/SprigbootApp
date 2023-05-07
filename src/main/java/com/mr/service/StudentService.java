@@ -13,9 +13,9 @@ public class StudentService {
 private StudentRepository studentRepository;
 
 public void saveStudentFormdata(StudentForm sf) {
-	
+	System.out.println("45");
 	studentRepository.save(sf);
-	System.out.println("123");
+	System.out.println("1234");
 }
 	
 	
