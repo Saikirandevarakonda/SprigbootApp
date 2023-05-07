@@ -13,7 +13,7 @@ public class StudentService {
 private StudentRepository studentRepository;
 
 public void saveStudentFormdata(StudentForm sf) {
-	
+	System.out.println("inside save Record");
 	studentRepository.save(sf);
 }
 	
