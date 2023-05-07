@@ -17,8 +17,10 @@ public StudentService studentService;
 	@PostMapping("/savestudentform")
 	public ResponseEntity<String>saveRecord(@RequestBody StudentForm sf){
 	try {
+		System.out.println("inside save Record");
 		studentService.saveStudentFormdata(sf);
-	}
+		System.out.println("after save record");
+			}
 	catch(Exception e) {
 		return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 }
