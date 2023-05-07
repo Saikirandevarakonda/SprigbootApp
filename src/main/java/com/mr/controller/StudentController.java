@@ -19,6 +19,7 @@ public StudentService studentService;
 	try {
 		
 		studentService.saveStudentFormdata(sf);
+		System.out.println("456");
 		
 			}
 	catch(Exception e) {

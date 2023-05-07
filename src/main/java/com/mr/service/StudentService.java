@@ -15,6 +15,7 @@ private StudentRepository studentRepository;
 public void saveStudentFormdata(StudentForm sf) {
 	
 	studentRepository.save(sf);
+	System.out.println("123");
 }
 	
 	
