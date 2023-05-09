@@ -17,7 +17,7 @@ public StudentService studentService;
 	@PostMapping("/savestudentform")
 	public ResponseEntity<String>saveRecord(@RequestBody StudentForm sf){
 	try {
-		System.out.println("cd");
+		System.out.println("cd how r u");
 		studentService.saveStudentFormdata(sf);
 		
 		
